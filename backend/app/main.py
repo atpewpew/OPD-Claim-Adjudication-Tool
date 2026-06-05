@@ -77,7 +77,7 @@ app.add_middleware(
 # Include routers with try/except ImportError so application works even if routes files don't exist yet
 try:
     from app.routes.claims import router as claims_router
-    app.include_router(claims_router, prefix="/api", tags=["claims"])
+    app.include_router(claims_router, prefix="/api/claims", tags=["claims"])
     logger.info("Claims router included successfully.")
 except ImportError:
     logger.warning("Could not import claims router from app.routes.claims. Skipping registration.")

@@ -1,3 +1,4 @@
+import os
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
@@ -8,6 +9,13 @@ class Settings(BaseSettings):
     CORS_ORIGINS: str = "http://localhost:5173"
     SUPABASE_URL: str | None = None
     SUPABASE_SERVICE_KEY: str | None = None
+    
+    # Resolve absolute path to data/policy_terms.json
+    POLICY_TERMS_PATH: str = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+        "data",
+        "policy_terms.json"
+    )
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
