@@ -12,7 +12,6 @@ import {
   ArrowLeft,
   User,
   Calendar,
-  Building2,
   Sparkles
 } from "lucide-react";
 
