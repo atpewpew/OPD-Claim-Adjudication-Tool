@@ -5,4 +5,4 @@ __pycache__/
 claimiq.db
 uploads/
 *.db
-data/
+.pytest_cache
