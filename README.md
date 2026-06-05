@@ -1,6 +1,6 @@
-# ClaimIQ — Intelligent OPD Claim Adjudication Tool
+# Intelligent OPD Claim Adjudication Tool
 
-ClaimIQ is an AI-powered Outpatient Department (OPD) health insurance claims adjudication engine. It automates the review of claim submissions, doctor prescriptions, medical bills, and diagnosis reports, deciding whether a claim should be **Approved**, **Rejected**, **Partially Approved**, or flagged for **Manual Review** in under 10 seconds.
+AI-powered Outpatient Department (OPD) health insurance claims adjudication engine. It automates the review of claim submissions, doctor prescriptions, medical bills, and diagnosis reports, deciding whether a claim should be **Approved**, **Rejected**, **Partially Approved**, or flagged for **Manual Review** in under 10 seconds.
 
 ---
 
